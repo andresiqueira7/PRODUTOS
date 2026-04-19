@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f6f9, #dfe9f3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #080808de;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+td {
+    background: #cbdbcfde;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #eff0f1;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #f4f6fa;
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    background: #024117;
+    color: rgb(238, 216, 216);
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #01581c;
+    transform: translateY(-2px);
+}
+
+input, select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #99b2d6;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #ebedf0;
+    box-shadow: 0 0 0 3px rgba(240, 240, 241, 0.1);
+}
+
+button {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #16a34a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #15803d;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+th {
+    background: #f85b01;
+    color: #f5f7fc;
+}
+
+tr:hover {
+    background: #85a7eb;
+}
+.btn-acao {
+    display: inline-block;
+    text-decoration: none;
+    background: #01330d;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px;
+    transition: 0.3s ease;
+}
+
+.btn-acao:hover {
+    background: #014116;
+    transform: translateY(-1px);
+}
