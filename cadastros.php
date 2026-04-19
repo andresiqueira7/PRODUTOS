@@ -16,6 +16,9 @@
         <h1>Lista de Produtos</h1>
         <p>Gerencie seus produtos cadastrados no sistema</p>
 
+        <div class ="botoes">
+            <a href="cadastrar.php" class="btn">CADASTRAR NOVO PRODUTO</a>
+        
 
         <div class="botoes">
             <a href="index.php" class="btn">VOLTAR AO MENU ANTERIOR</a>

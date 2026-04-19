@@ -43,6 +43,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="botoes" style="margin-top: 20px;">
             <a href="index.php" class="btn">Voltar ao Menu Principal</a>
         </div>
+              -
+        <div>
+            <a href="cadastros.php" class="btn">Ver Produtos Cadastrados</a>
+        </div>
     </div>
 
 </body>

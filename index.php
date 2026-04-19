@@ -19,6 +19,8 @@
         <div class ="botoes">
             <a href="cadastros.php" class="btn">Produtos Cadastrados</a>
         </div>
+           - 
+
 
         <div class="botoes">
             <a href="cadastrar.php" class="btn">Cadastrar Novo Produto</a>
