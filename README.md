@@ -106,6 +106,9 @@ Este projeto foi desenvolvido como atividade acadêmica com foco no aprendizado 
 
 ## Autor
 
-Andre Luiz
+Andre Luiz Siqueira 
+<p>
+
 Analise e Desenvolvimento de sistemas - Uniube 2026. 
+<p>
 RA 1184031-1
